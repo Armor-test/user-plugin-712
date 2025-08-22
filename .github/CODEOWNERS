@@ -1,0 +1,41 @@
+# CODEOWNERS file for user-plugin-712
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-research @Armor-test/dept-notifications @Armor-test/team-research
+
+# Directory ownership
+/spec/ @Armor-test/squad-research @Armor-test/team-governance @Armor-test/squad-database
+/plugins/ @Armor-test/dept-identity @Armor-test/dept-reliability @Armor-test/squad-database
+/views/ @Armor-test/unit-design @Armor-test/unit-test
+/test/ @Armor-test/squad-ux @Armor-test/squad-database @Armor-test/dept-automation
+/lib/ @Armor-test/dept-reliability @Armor-test/squad-api
+/build/ @Armor-test/dept-identity @Armor-test/squad-cache @Armor-test/team-research
+/db/ @Armor-test/dept-billing @Armor-test/grp-search
+/third_party/ @Armor-test/squad-payments @Armor-test/team-reporting
+/helpers/ @Armor-test/unit-cloud @Armor-test/squad-product @Armor-test/dept-release
+/pkg/ @Armor-test/dept-reporting @Armor-test/dept-notifications
+/deploy/ @Armor-test/dept-billing @Armor-test/grp-payments @Armor-test/squad-search
+/web/ @Armor-test/team-frontend @Armor-test/grp-ui
+/docs/ @Armor-test/squad-ux @Armor-test/dept-release
+/pages/ @Armor-test/unit-design @Armor-test/grp-payments
+
+# File type ownership
+*.scss @Armor-test/grp-storage @Armor-test/unit-test
+*.proto @Armor-test/squad-research @Armor-test/unit-test
+*.config @Armor-test/unit-test @Armor-test/dept-identity
+*.kt @Armor-test/grp-search @Armor-test/dept-data
+*.swift @Armor-test/squad-tooling @Armor-test/unit-cloud @Armor-test/team-governance
+*.rb @Armor-test/dept-security @Armor-test/squad-mobile @Armor-test/squad-ml
+*.properties @Armor-test/team-logging @Armor-test/squad-api
+*.sql @Armor-test/squad-ux @Armor-test/team-research @Armor-test/unit-governance
+*.yml @Armor-test/team-core @Armor-test/squad-cache @Armor-test/unit-governance
+*.cpp @Armor-test/team-governance @Armor-test/team-reporting
+*.tsx @Armor-test/unit-test @Armor-test/squad-ml @Armor-test/squad-qa
+*.rs @Armor-test/unit-devops @Armor-test/dept-reporting @Armor-test/squad-apps
+*.scala @Armor-test/team-core @Armor-test/team-notifications @Armor-test/dept-reliability
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
